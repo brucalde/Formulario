@@ -4,18 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
     <form action="">
-        <label for="Nombre">Nombre Completo</label>
-        <input type="text" placeholder="Nombre">
-        <label for="Contraseña"> Contraseña</label>
-        <input type="password" placeholder="password">
-        <label for="Email"> Email de recuperacion</label>
-        <input type="Email" placeholder="Email" required=""> 
-        <button> Enviar</button>
+        <div class="Principal">
+            <label for="Nombre" class="Titulos">Nombre Completo</label><br>
+            <input type="text" class="inputs"><br>
+            <label for="Contraseña" class="Titulos"> Contraseña</label><br>
+            <input type="password" placeholder="password" class="inputs"><br>
+            <label for="Email" class="Titulos"> Email de recuperacion</label><br>
+            <input type="Email" placeholder="Email" required="" class="inputs"><br>
+            <label for="Numero" class="Titulos"> Numero telefono</label><br>
+            <input type="number" placeholder="Tel" class="inputs">
 
+        </div>
+        <section class="Turno">
+            <div class="dos">
+                <label for="Elegir turno" >Seleccione turno</label><br>
+            </div>
+            <div class="uno">
+                <select name="Turnos" id="Turnos">
+                    <option value="Tarde">Tarde</option>
+                    <option value="Noche"> Noche</option>
+                    <option value="Mañana"> Mañana </option>
+                </select>
+            </div>
+            
+        </section>
+        <section class="Horario">
+            <div>
+                <h4>Horario</h4>
+            </div>
+            <div>
+                <label for="Tiempo">Full-time</label>
+                <input type="radio" name="Full-time" value="Completo" id="Tcompleto">
+            </div>
+            <div>
+                <label for="Tiempo">Part-time</label>
+                <input type="radio" name="Part-time" value="Medio" id="Tmedio">
+            </div>
+            
+
+        </section>
+        <div>
+            <input type="submit" value="Enviar" class="Boton">
+        </div>
+        
+        
+        
+        
     </form>
     
 </body>

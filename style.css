@@ -1,6 +1,58 @@
-form {
-    background-color: green;
+body{
+    background-color: #dfe4ea;
 }
-body {
-    background-color: hotpink;
+.Principal {
+    margin: auto;
+    width: 500px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    background-color: white;
+    padding: 20px;
+}
+.Titulos {
+    text-align: center;
+    padding: 20px;
+    color: rgb(131, 124, 124);
+    margin: 20px;
+}
+.inputs {
+    padding: 8px;
+    width: 200px;
+    margin: 10px;
+}
+.Turno {
+    margin: auto;
+    width: 500px;
+    border: 1px solid gray;
+    margin-top: 20px;
+    padding: 20px;
+    color: rgb(131, 124, 124);
+    border-radius: 8px;
+    background-color: white;
+}
+.uno {
+    margin-top: 10px;
+    margin-left: 40%;
+}
+.dos {
+    margin-left: 40%;
+}
+.Horario {
+    margin: auto;
+    border: 1px solid gray;
+    width: 500px;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    text-align: center;
+    color: gray;
+    background-color: white;
+}
+.Boton {
+    margin-left: 47%;
+    margin-top: 15px;
+    padding: 8px;
+    width: 100px;
+    border-radius: 8px;
+    border: 1px solid gray;
 }
